@@ -55,7 +55,7 @@ def zero_division_error(number1, number2):
         quotient = number1 / number2
         return quotient
     except Exception as e:
-        a = print("\nYou cannot divide by zero. Python would tell you the following:\n")
+        a = print("\nYou cannot divide by zero. Python would tell you the following:\n")    # provide custom message
         b = print(e)
         c = print(type(e))
         d = print(e.__doc__)
@@ -74,7 +74,7 @@ def file_not_found_error(file_name):
         for i in file:
             return i
     except Exception as e:
-        a = print("\n\'The file does not exist\' is much nicer than Python's error:\n")
+        a = print("\n\'The file does not exist\' is much nicer than Python's error:\n")     # provide custom message
         b = print(e)
         c = print(type(e))
         d = print(e.__doc__)
@@ -90,8 +90,8 @@ def custom_error(hero_name):
     '''
 
     try:
-        if hero_name.lower() in ("nero", "kruge", "khan"):
-            raise Exception("Really?! They are not a hero!")
+        if hero_name.lower() in ("nero", "kruge", "khan"):      # test for custom error condition
+            raise Exception("Really?! They are not a hero!")    # raise Exception if error found
     except Exception as e:
         a = print("A custom error was raised.")
         b = print(e)
@@ -101,7 +101,7 @@ def custom_error(hero_name):
 
 
 # PRESENTATION (I/O) -------------------#
-def welcome_user():
+def welcome_user():                                 # welcome message. no user interaction expected
     '''
     Welcome user and brief explanation of program.
     :return: (string) message
@@ -120,7 +120,7 @@ def welcome_user():
     return message
 
 
-def main_menu():
+def main_menu():            # options menu to navigate the script
     '''
     Display menu options to the user.
     :return: nothing
@@ -221,8 +221,8 @@ def zero_division_error_inputs():
     :return: (int) number1, number2
     '''
 
-    number1 = int(input("Enter a number: "))
-    number2 = int(input("Enter a number (HINT: it should be 0): "))
+    number1 = int(input("Enter a number: "))                            # request number from user and make int
+    number2 = int(input("Enter a number (HINT: it should be 0): "))     # request number from user and make int
     return number1, number2
 
 
@@ -232,7 +232,7 @@ def file_not_found_error_input():
     :return:
     '''
 
-    file_name = str(input("\nEnter a file name (i.e., SomeName.txt): ")).strip()
+    file_name = str(input("\nEnter a file name (i.e., SomeName.txt): ")).strip()  # request file name and make string
     return file_name
 
 
@@ -243,7 +243,7 @@ def custom_error_inputs():
     '''
 
     print("\nHINT: the answer likely consists of Khan, Nero, or Kruge")
-    hero_name = str(input("\nEnter the name of a hero: ")).strip().lower()
+    hero_name = str(input("\nEnter the name of a hero: ")).strip().lower()  # request user input and make string
     return hero_name
 
 
