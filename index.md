@@ -466,5 +466,35 @@ I conclude the test with the custom error and exiting the program (Figure 34).
 
 <sub>***Figure 34: Custom Error and exiting the program.***</sub>
 
+## GitHub
+We continue to use GitHub to save our Python scripts for this assignment. As was done in prior assignments, I created a new repository and initialized with a README file (Figure 35).
+
+<sub>***Figure 35: Creating a new GitHub repository.***</sub>
+
+With the repository created I added my Python script file as well as the pickled text file (Figure 36).
+
+<sub>***Figure 36: Committing Assignment07.py and Heros.txt.***</sub>
+
+### GitHub Webpage
+I added a GitHub webpage once the new Assignment07 repository was created. This was accomplished by navigating to Settings > Pages and selecting the branch to build from (Figure 37).
+
+<sub>***Figure 37: Adding a GitHub webpage.***</sub>
+
+With the webpage created I added an index.md file to the repository. To this file I added all the text from this knowledge document (Figure 38).
+
+<sub>***Figure 38: Index.md in GitHub.***</sub>
+
+In the main section of the repository, I created a folder called images. To add the images from the knowledge document to the GitHub webpage I will need to save the images somewhere. This folder will be my central location for all Assignment07 images (Figure 39).
+
+<sub>***Figure 39: Creating the images folder on GitHub.***</sub>
+
+Finally, I added the images to the GitHub webpage. In the index.md file I added the necessary code with syntax ![Alt Text](image URL “tool tip text”) that would render all the necessary images (Figure 40).
+
+<sub>***Figure 40: Adding images to a GitHub webpage.***</sub>
+
+Where I elected to enter code and not an image I needed to surround the code with three tick marks (``` ```) so that it would show properly (Figure 41).
+
+<sub>***Figure 41: Adding code snippets to a GitHub webpage.***</sub>
+
 ## Summary
 Assignment07 provided an opportunity to research pickling and error handling in Python. The coding task was presented as open-ended, so several options existed. The approach of teaching someone else about these topics was helpful for me. Making the lessons interactive for the user will hopefully provide a fun and educational experience.
