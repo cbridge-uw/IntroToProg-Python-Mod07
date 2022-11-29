@@ -14,7 +14,7 @@ Creating this script presents a unique challenge as compared to prior assignment
 ### Initial Setup
 The initial setup follows the pattern of prior assignments. I created a new sub-folder in the _PythonClass folder and added a new knowledge word document (Figure 1).
 
-![Figure 1](/images/Figure%201.png "Figure 1")
+![Figure 1](./images/Figure%201.png "Figure 1")
 
 <sub>***Figure 1: Creating the new sub-folder and knowledge document.***</sub>
 
