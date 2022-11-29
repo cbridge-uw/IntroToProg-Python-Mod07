@@ -20,11 +20,11 @@ The initial setup follows the pattern of prior assignments. I created a new sub-
 
 Next, I created a new project in PyCharm (Figure 2) and added the Assignment07 Python file (Figure 3).
 
-![Figure 2](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%202.png "Figure 2")
+![Figure 2](./images/Figure%202.png "Figure 2")
 
 <sub>***Figure 2: Creating a PyCharm project.***</sub>
 
-![Figure 3](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%203.png "Figure 3")
+![Figure 3](./images/Figure%203.png "Figure 3")
 
 <sub>***Figure 3: Adding the Assignment07 Python file.***</sub>
 
@@ -395,104 +395,118 @@ With both the pickling and error handling lesson modules completed I tested in P
 #### PyCharm
 First, I started the program (Figure 23).
 
-![Figure 23](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2023.png "Figure 23")
+![Figure 23](./images/Figure%2023.png "Figure 23")
 
 <sub>***Figure 23: Starting the program.***</sub>
 
 I selected 1 to learn about pickling first and enter a name when prompted to do so (Figure 24).
 
-![Figure 24](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2024.png "Figure 24")
+![Figure 24](./images/Figure%2024.png "Figure 24")
 
 <sub>***Figure 24: Running the pickling lesson.***</sub>
 
 As instructed, I find and open the newly created and pickled Heros.txt file (Figure 25).
 
-![Figure 25](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2025.png "Figure 25")
+![Figure 25](./images/Figure%2025.png "Figure 25")
 
 <sub>***Figure 25: The pickled Heros.txt file.***</sub>
 
 I continue with the program and finally see the full, un-pickled list (Figure 26).
 
-![Figure 26](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2026.png "Figure 26")
+![Figure 26](./images/Figure%2026.png "Figure 26")
 
 <sub>***Figure 26: The un-pickled Heros.txt file.***</sub>
 
 Next, I ran the error handling module (Figure 27).
 
-![Figure 27](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2027.png "Figure 27")
+![Figure 27](./images/Figure%2027.png "Figure 27")
 
 <sub>***Figure 27: Starting the error handling lesson.***</sub>
 
 The zero-division error is addressed first and works as expected (Figure 28).
 
-![Figure 28](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2028.png "Figure 28")
+![Figure 28](./images/Figure%2028.png "Figure 28")
 
 <sub>***Figure 28: The Zero Division Error.***</sub>
 
 Next up is the file not found error (Figure 29).
 
-![Figure 29](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2029.png "Figure 29")
+![Figure 29](./images/Figure%2029.png "Figure 29")
 
 <sub>***Figure 29: The File Not Found Error.***</sub>
 
 Finally, the custom error is demonstrated (Figure 30).
 
-![Figure 30](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2030.png "Figure 30")
+![Figure 30](./images/Figure%2030.png "Figure 30")
 
 <sub>***Figure 30: The Custom Error.***</sub>
 
 Once the custom error completes, I am returned to the main menu and exit the program (Figure 31).
 
-![Figure 31](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2031.png "Figure 31")
+![Figure 31](./images/Figure%2031.png "Figure 31")
 
 <sub>***Figure 31: Exiting the program.***</sub>
 
 #### OS Command Prompt
 I next tested the script in the OS Command Prompt. The welcome message and pickling modules ran first (Figure 32).
 
-![Figure 32](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2032.png "Figure 32")
+![Figure 32](./images/Figure%2032.png "Figure 32")
 
 <sub>***Figure 32: Welcome and Pickling lesson in the command prompt.***</sub>
 
 Next, the error handling lesson runs. I navigate through the zero division error and file not found error (Figure 33).
 
-![Figure 33](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2033.png "Figure 33")
+![Figure 33](./images/Figure%2033.png "Figure 33")
 
 <sub>***Figure 33: Zero Division Error and File Not Found Error.***</sub>
 
 I conclude the test with the custom error and exiting the program (Figure 34).
 
-![Figure 34](https://github.com/cbridge-uw/IntroToProg-Python-Mod07/blob/main/images/Figure%2034.png "Figure 34")
+![Figure 34](./images/Figure%2034.png "Figure 34")
 
 <sub>***Figure 34: Custom Error and exiting the program.***</sub>
 
 ## GitHub
 We continue to use GitHub to save our Python scripts for this assignment. As was done in prior assignments, I created a new repository and initialized with a README file (Figure 35).
 
+![Figure 35](./images/Figure%2035.png "Figure 35")
+
 <sub>***Figure 35: Creating a new GitHub repository.***</sub>
 
 With the repository created I added my Python script file as well as the pickled text file (Figure 36).
+
+![Figure 36](./images/Figure%2036.png "Figure 36")
 
 <sub>***Figure 36: Committing Assignment07.py and Heros.txt.***</sub>
 
 ### GitHub Webpage
 I added a GitHub webpage once the new Assignment07 repository was created. This was accomplished by navigating to Settings > Pages and selecting the branch to build from (Figure 37).
 
+![Figure 37](./images/Figure%2037.png "Figure 37")
+
 <sub>***Figure 37: Adding a GitHub webpage.***</sub>
 
 With the webpage created I added an index.md file to the repository. To this file I added all the text from this knowledge document (Figure 38).
+
+![Figure 38](./images/Figure%2038.png "Figure 38")
 
 <sub>***Figure 38: Index.md in GitHub.***</sub>
 
 In the main section of the repository, I created a folder called images. To add the images from the knowledge document to the GitHub webpage I will need to save the images somewhere. This folder will be my central location for all Assignment07 images (Figure 39).
 
+![Figure 39](./images/Figure%2039.png "Figure 39")
+
 <sub>***Figure 39: Creating the images folder on GitHub.***</sub>
 
 Finally, I added the images to the GitHub webpage. In the index.md file I added the necessary code with syntax ![Alt Text](image URL “tool tip text”) that would render all the necessary images (Figure 40).
 
+![Figure 40](./images/Figure%2040.png "Figure 40")
+
 <sub>***Figure 40: Adding images to a GitHub webpage.***</sub>
 
 Where I elected to enter code and not an image I needed to surround the code with three tick marks (``` ```) so that it would show properly (Figure 41).
+
+![Figure 41](./images/Figure%2041.png "Figure 41")
 
 <sub>***Figure 41: Adding code snippets to a GitHub webpage.***</sub>
 
