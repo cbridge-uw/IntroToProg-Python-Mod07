@@ -92,6 +92,9 @@ def custom_error(hero_name):
     try:
         if hero_name.lower() in ("nero", "kruge", "khan"):      # test for custom error condition
             raise Exception("Really?! They are not a hero!")    # raise Exception if error found
+        else:
+            message = print("Sure, they can be a hero!")
+            return message
     except Exception as e:
         a = print("A custom error was raised.")
         b = print(e)
